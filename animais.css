@@ -1,0 +1,64 @@
+#animais {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotoAnimais:hover{
+    opacity: 80%;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.fotoAnimais {
+    border-radius: 10px;
+    margin: 3%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.fotoAninais img {
+    width: 100%;
+}
+
+p{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    color: white;
+    margin: 0;
+}
+
+@media only screen and (max-width: 960px){
+    #animais {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.amarelo{
+background-color: #E6B802;
+}
+
+.rosa{
+    background-color:#F03CC3 ;
+}
+
+.vermelho{
+background-color: #FF3845;
+}
+
+.roxo{
+    background-color: #8F4AF7;
+}
+
+.azul{
+    background-color: #01A5FC;
+}
+
+.verde{
+    background-color: #0ECC6A;
+}
